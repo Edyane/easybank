@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700&display=swap');
+
+
+body {
+    background: #FAFAFA;
+}
+
+.navbar {    
+    background: #FFF;
+    padding: 15px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    color: #89898a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold 700;    
+    gap: 1.8em;
+}
+
+.button {
+    background: linear-gradient(90deg, rgba(49,208,106,1) 0%, rgba(47,194,165,1) 50%, rgba(43,185,207,1) 100%);;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: semibold;
+    font-size: 16px;
+    border: none;
+    border-radius: 70px;
+    width: 190px;
+    height: 50px;      
+}
+
+.middle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+      
+}
+
+
+
+.description {
+    color: #89898a;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.0em;
+    padding-top: 30px;
+}
+
+.images {   
+    align-items: center; 
+    background-image: url("../images/bg-intro-desktop.svg") no-repeat center;
+}
+
