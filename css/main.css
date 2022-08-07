@@ -37,23 +37,15 @@ body {
 }
 
 .middle-container {
-    display: flex;
-    align-items: center;
+    display: flex;  
+    align-items: center;  
     justify-content: space-around;
-      
 }
 
-
-
-.description {
-    color: #89898a;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.0em;
-    padding-top: 30px;
-}
-
-.images {   
-    align-items: center; 
-    background-image: url("../images/bg-intro-desktop.svg") no-repeat center;
+.testando {
+    background: url(../images/bg-intro-desktop.svg);    
+    background-size: auto;
+    width: 70%;
+    height: 70%;
 }
 
