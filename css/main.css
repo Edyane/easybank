@@ -36,16 +36,32 @@ body {
     height: 50px;      
 }
 
-.middle-container {
-    display: flex;  
-    align-items: center;  
-    justify-content: space-around;
+.middle-container {   
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;    
 }
 
-.testando {
-    background: url(../images/bg-intro-desktop.svg);    
-    background-size: auto;
-    width: 70%;
-    height: 70%;
+.next-section { 
+    align-items: center;   
+    justify-content: space-between;
+    color: #2F3251;
+    max-width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    line-height: 1.2em;
+    font-weight: bold 700; 
 }
 
+.next-paragraph {    
+    margin-top: 18px;
+    max-width: 400px;
+    color: #6e6e70;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+.middle-images {
+    display: flex;
+    justify-content: space-between;
+}
