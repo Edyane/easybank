@@ -66,4 +66,19 @@
 
 .second-container {
     background: #F4F5F7;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around; 
 }
+
+.choose-section { 
+    align-items: center;   
+    justify-content: space-between;
+    color: #2F3251;
+    max-width: 610px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    line-height: 1.2em;
+    font-weight: bold 700; 
+} 
