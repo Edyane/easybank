@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700&display=swap');
 
 
-body {
-    background: #FAFAFA;
-}
+*
 
 .navbar {    
     background: #FFF;
@@ -36,7 +34,7 @@ body {
     height: 50px;      
 }
 
-.middle-container {   
+.first-container {   
     display: flex; 
     align-items: center;
     justify-content: space-around;    
@@ -64,4 +62,8 @@ body {
 .middle-images {
     display: flex;
     justify-content: space-between;
+}
+
+.second-container {
+    background: #F4F5F7;
 }
