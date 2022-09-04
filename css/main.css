@@ -51,7 +51,8 @@
     font-weight: bold 700; 
 }
 
-.next-paragraph {    
+.next-paragraph {  
+    font-family: 'Montserrat', sans-serif;  
     margin-top: 18px;
     max-width: 400px;
     color: #6e6e70;
@@ -64,8 +65,26 @@
     justify-content: space-between;
 }
 
-.second-container {
-    background: #F4F5F7;
-    
+h2 {
+    color: #2F3251;
+    text-align: justify;
+    padding: 30px 0px; 
 }
 
+.choose-easybank {
+    background: #F4F5F7;  
+    min-height: 590px;  
+}
+
+.easybank-col {
+    padding: 145px;
+}
+
+.latest-articles {
+    background: #93a9d5;  
+    min-height: 500px; 
+}
+
+footer {
+    background-color: #8ba5b3;
+}
