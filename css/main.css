@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700&display=swap');
 
 
-*
-
 .navbar {    
     background: #FFF;
     padding: 15px;
@@ -86,6 +84,8 @@ h2 {
 }
 
 footer {
+    padding-top: 25px;
+    min-height: 160px;
     background-color: #8ba5b3;
 }
 
